@@ -23,5 +23,6 @@ public class NettyServerMain {
                 .group("test2").version("version2").service(helloService2).build();
         nettyRpcServer.registerService(rpcServiceConfig);
         nettyRpcServer.start();
+
     }
 }
